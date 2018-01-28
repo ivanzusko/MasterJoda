@@ -1,0 +1,13 @@
+body{
+    background: #CEF6EC;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-block{
+    margin: auto;
+}
