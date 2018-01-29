@@ -3,7 +3,7 @@ body{
 }
 
 html{
-overflow: hidden;
+overflow: hidden;/* Краще так не робити */
 }
 
 .container{
@@ -11,9 +11,9 @@ overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; /* Не має сенсу, оскільки між елементами немає простору (три елементи займають усю ширину)*/
 }
 .container-block{
     text-align: center;
-    width: calc(100% * (1/3));
+    width: calc(100% * (1/3)); /* :) */
 }
