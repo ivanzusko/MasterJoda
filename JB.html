@@ -14,6 +14,15 @@
     </div>
     <div class="container-block">
     <a href="https://www.youtube.com" target="_blank">
+	    <!--
+	     1. Якщо зображення в середині, то це треба відзначати відповідним відступом, бо
+	     	Codestyle дуже важливий. В першу чергу для тебе ж самого (легше буде орієнтуватись) а по-друге, коли працюватимеш з командою - єдиний стиль коду спростить життя.
+	    -->
+	    <!-- 
+	     2. Стилі мають бути у стилях, а не на тегу. Інлайнові стилі (width="200" і т.д.) - то лише для крайніх випадків, про які ще рано говорити. АЛе такого треба уникати якомого сильніше. -->
+	    <!--
+	     3. Кожен img має мати атрибут alt="тут_має_бути_описання_зображення_для_скрінрідерів_та_пошукових_систем".
+	    -->
     <img src="https://images.vexels.com/media/users/3/141532/isolated/preview/3a36614d8dde3aa7ee06398cb6dc80cb-icono-de-caucho-youtube-by-vexels.png" width="200" height="200"></a>
    <h1>YOUTUBE</h1> <p>Look some videos, dude!</p>
     </div>
@@ -35,6 +44,7 @@
     <div class="container-block">
         <a href="https://www.facebook.com" target="_blank">
             <img src="https://blog.addthiscdn.com/wp-content/uploads/2015/11/logo-facebook.png" width="200" height="200"> </a>
+	<!-- Уважно почитай про тег article. Його доцільніше було б використати як .container-block замість div (хоча div підходить абсолютно, мається на увазі, що article вжито трохи не за призначенням. Не смертельно, але викликатиме у людей питання. Якщо маєш сумніви - краще вживати щось стандартне аля div) -->
         <h1>FACEBOOK</h1><article>Here u could find some of your friends.</article>
     </div>
     <div class="container-block">
