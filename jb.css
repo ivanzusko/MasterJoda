@@ -3,6 +3,9 @@ body{
 }
 
 html{
+	/*
+	 * Такого треба уникати.
+	 */
     overflow-y: scroll;
     overflow-x: hidden;
 }
